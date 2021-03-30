@@ -1,0 +1,13 @@
+﻿l_english:
+ switch_succession_decision_title:0 "Change Succession"
+ switch_succession_decision_desc:0 "Changes your Succession to your preferred Type"
+ switch_succession_decision_tooltip:0 "Changes your Succession Law"
+ switch_succession_decision_confirm:0 "Change Succession"
+ switch_succession_decision_custom_tooltip:0 "Allows you to choose your Succession Law"
+ switch_succession_event.0001.title:0 "Change your Succession"
+ switch_succession_event.0001.desc:0 "Choose which Succession Law your Country will follow"
+ switch_succession_event.0001.primo:0 "Switch to Primogeniture"
+ switch_succession_event.0001.ultimo:0 "Switch to Ultimogeniture"
+ switch_succession_event.0001.partition:0 "Switch to Partition"
+ switch_succession_event.0001.highPartition:0 "Switch to High Partition"
+ switch_succession_event.0001.houseSeniority:0 "Switch to House Seniority"

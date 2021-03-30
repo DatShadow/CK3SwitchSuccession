@@ -1,0 +1,50 @@
+switch_succession_decisions.0001 = {
+	title = switch_succession_event.0001.title
+	desc = switch_succession_event.0001.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	#Partition
+	option = {
+		name = switch_succession_event.0001.partition
+		root.culture = {
+			add_innovation = innovation_hereditary_rule
+		}
+		add_realm_law_skip_effects = partition_succession_law
+	}
+	#High Partition
+	option = {
+		name = switch_succession_event.0001.highPartition
+		root.culture = {
+			add_innovation = innovation_heraldry
+		}
+		add_realm_law_skip_effects = high_partition_succession_law
+	}
+	
+	#Primogeniture
+	option = {
+		name = switch_succession_event.0001.primo
+		root.culture = {
+			add_innovation = innovation_primogeniture
+		}
+		add_realm_law_skip_effects = single_heir_succession_law
+	}
+	#Ultimogeniture
+	option ={
+		name = switch_succession_event.0001.ultimo
+		root.culture = {
+			add_innovation = innovation_primogeniture
+		}
+		add_realm_law_skip_effects = single_heir_succession_law_youngest
+	}
+	#House Seniority
+	option = {
+		name = switch_succession_event.0001.houseSeniority
+		root.culture = {
+			add_innovation = innovation_heraldry
+		}
+		add_realm_law_skip_effects = single_heir_dynasty_house
+	}
+}

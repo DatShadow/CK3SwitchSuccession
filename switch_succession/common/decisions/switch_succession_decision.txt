@@ -1,0 +1,32 @@
+switch_succession_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	title = switch_succession_decision_title
+	desc = switch_succession_decision_desc
+	ai_check_interval = 0 #AI will never check
+	selection_tooltip = switch_succession_decision_tooltip
+	confirm_text = switch_succession_decision_confirm
+	is_shown = {
+		always = yes
+	}
+	is_valid = {
+		OR = {
+			has_realm_law = crown_authority_1 #low
+			has_realm_law = crown_authority_2 #med
+			has_realm_law = crown_authority_3 #absolute
+		}
+	}
+	cost = {
+		gold = 500
+		prestige = 2000
+	}
+
+	effect = {
+		custom_tooltip = switch_succession_decision_custom_tooltip
+		trigger_event = switch_succession_decisions.0001
+	}
+	ai_potential = {
+		always = no
+	}
+
+	
+}
