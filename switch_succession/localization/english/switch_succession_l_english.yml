@@ -11,3 +11,4 @@
  switch_succession_event.0001.partition:0 "Switch to Partition"
  switch_succession_event.0001.highPartition:0 "Switch to High Partition"
  switch_succession_event.0001.houseSeniority:0 "Switch to House Seniority"
+ switch_succession_event.0001.nevermind:0 "Nevermind"

@@ -1,5 +1,5 @@
 switch_succession_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	picture = "gfx/interface/illustrations/decisions/SuccessionArt.dds"
 	title = switch_succession_decision_title
 	desc = switch_succession_decision_desc
 	ai_check_interval = 0 #AI will never check

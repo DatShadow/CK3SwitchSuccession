@@ -47,4 +47,10 @@ switch_succession_decisions.0001 = {
 		}
 		add_realm_law_skip_effects = single_heir_dynasty_house
 	}
+	#Nevermind| Cancel Event
+	option = {
+		name = switch_succession_event.0001.nevermind
+		add_prestige_no_experience = 2000
+		add_gold = 500
+	}
 }
